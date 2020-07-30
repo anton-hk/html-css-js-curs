@@ -1,0 +1,84 @@
+/********** Base styles **********/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 20px;
+}
+
+section, h2 {
+	border: 2px solid black;
+}
+section{
+	height: 220px;
+	background-color: gray;
+	margin: 15px;
+	overflow: auto;
+}
+
+h1 {
+	margin: 35px;
+	text-align: center;
+	font-size: 175%;
+
+}
+h2{
+	width: 200px;
+	padding: 5px;
+	font-size: 125%;
+	text-align: center;
+	position: relative;
+	float: right;
+	
+}
+p {
+	font-size: 100%;
+	clear: right;
+	padding: 10px 10px 5px 10px;
+	
+}
+
+#h21 {
+	background-color: pink;
+	
+}
+#h22 {
+	background-color: red;
+	color: white;
+}
+#h23 {
+	background-color: yellow;
+}
+
+.row {
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+   .col-lg-4 {
+  		float: left;
+   		width: 33.33%;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+	  	float: left;
+      	width: 50%;
+  }
+ 	.col3-md-12{
+ 		float: left;
+ 		width: 100%;
+ 	}
+	
+  
+}
+@media (max-width: 767px) {
+	.col-sm-12 {
+		float: left;
+    	width: 100%;
+  }
+  
+}
